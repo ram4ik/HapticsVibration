@@ -26,6 +26,18 @@ struct ContentView: View {
                 Text("Vibrate for warning")
             }).padding()
         }
+        VStack {
+            Button(action: {
+                Haptics.shared.softRoll(0.7)
+            }, label: {
+                Text("SoftHammer")
+            })
+            Button(action: {
+                Haptics.shared.hit(0.9)
+            }, label: {
+                Text("HardHammer")
+            })
+        }
     }
 }
 

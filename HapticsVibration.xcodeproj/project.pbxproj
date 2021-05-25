@@ -14,6 +14,7 @@
 		1D863DDC2550948F00375506 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D863DDB2550948F00375506 /* Preview Assets.xcassets */; };
 		1D863DDF2550948F00375506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D863DDD2550948F00375506 /* LaunchScreen.storyboard */; };
 		1D863DE8255094A200375506 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D863DE7255094A200375506 /* HapticManager.swift */; };
+		95910A58265CF22000D02934 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95910A57265CF22000D02934 /* Haptics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1D863DDE2550948F00375506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D863DE02550948F00375506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D863DE7255094A200375506 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		95910A57265CF22000D02934 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1D863DDD2550948F00375506 /* LaunchScreen.storyboard */,
 				1D863DE02550948F00375506 /* Info.plist */,
 				1D863DDA2550948F00375506 /* Preview Content */,
+				95910A57265CF22000D02934 /* Haptics.swift */,
 			);
 			path = HapticsVibration;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				1D863DD32550948900375506 /* AppDelegate.swift in Sources */,
 				1D863DD52550948900375506 /* SceneDelegate.swift in Sources */,
+				95910A58265CF22000D02934 /* Haptics.swift in Sources */,
 				1D863DE8255094A200375506 /* HapticManager.swift in Sources */,
 				1D863DD72550948900375506 /* ContentView.swift in Sources */,
 			);
@@ -292,6 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HapticsVibration/Preview Content\"";
+				DEVELOPMENT_TEAM = L8W86DZDY2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HapticsVibration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +317,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HapticsVibration/Preview Content\"";
+				DEVELOPMENT_TEAM = L8W86DZDY2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HapticsVibration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
